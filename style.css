@@ -1,0 +1,55 @@
+body {
+    background-color: #414A4C;
+    color: #fdfeff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #ff0073;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff74b5;
+}
+a:visited {
+    color: #60895b;
+}
+
+img {
+    max-width: 40rem;
+    height: auto;
+}
+
+h1,
+h2 {
+    background-color: #2b2b2b66;
+    text-decoration: dotted white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through #bebebe54 dashed .5em;
+}
+
+p.description {
+    text-decoration: underline rgb(170, 115, 43) dotted 2px;
+}
+
+ul.ingredients-list li {
+    text-shadow: 2px 2px 5px #e0a42a;
+}
+
+ol li {
+    padding-bottom: 1.5rem;
+}
+
+#anchor-home {
+    background-color: #60fcff6e;
+}
+a:visited#anchor-home {
+    color: white;
+}
+
+div#anchor-home {
+    text-align: center;
+}
