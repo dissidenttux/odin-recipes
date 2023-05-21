@@ -18,8 +18,9 @@ a:visited {
 }
 
 img {
-    display: inline-block;
-    max-width: 2rem;
+    display: block;
+    max-width: 50ch;
+    margin: 0 auto;
     height: auto;
 }
 
