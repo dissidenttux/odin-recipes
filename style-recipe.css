@@ -2,8 +2,6 @@ body {
     background-color: #414A4C;
     color: #fdfeff;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    margin: 0 auto;
-    width: 72ch;
 }
 
 a {
@@ -18,35 +16,19 @@ a:visited {
 }
 
 img {
-    display: inline-block;
-    max-width: 2rem;
+    margin: 0 auto;
+    max-width: 50ch;
     height: auto;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
     background-color: #2b2b2b66;
     text-decoration: dotted white;
-    padding: 1rem;
-    margin: 2rem auto;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-    padding: 1rem;
-    text-align: center;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
     text-decoration: line-through #bebebe54 dashed .5em;
 }
 
@@ -71,8 +53,4 @@ a:visited#anchor-home {
 
 div#anchor-home {
     text-align: center;
-}
-
-span.highlight {
-    background-color: #fffb005f;
 }
